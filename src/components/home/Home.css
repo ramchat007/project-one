@@ -1,0 +1,22 @@
+.dashboard-box .card { color: #ffffff; height: calc(100% - 1.5rem); }
+.dashboard-box .card .card-{ border-bottom-color:transparent ; background-color: transparent; }
+.dashboard-box .card .card-h2 { font-size:1.714em; margin: 0;}
+.dashboard-box .card .card-.sec-rt > .btn-action { padding: 0.05em; border: 0; outline: 0;}
+.dashboard-box .card .card-header,
+.dashboard-box .card .card-body { padding: 0.75rem; }
+.dashboard-box .card .card-+ .card-body { padding-top: 0; }
+.dashboard-box .card .card-body > ul { display: inline-block; list-style: none; padding: 0; margin: 0; width: 100%;  }
+.dashboard-box .card .card-body > ul > li + li { padding-top: 16px; }
+.dashboard-box .card .card-body > ul > li .text-muted { font-size: 0.929em; color: #fff !important; }
+.dashboard-box .card .card-body > ul > li .text-muted > span { display: block;}
+.dashboard-box .card .card-body .card-text > b { display: block; }
+
+ul.list-def { display: inline-block; list-style: none; padding: 0; margin: 0; width:100%; }
+ul.list-def > li { display: block; padding-left: 2.2em; position: relative; }
+ul.list-def > li + li { margin-top: 1em;; }
+ul.list-def > li .card-text,
+ul.list-def > li .text-muted { font-size: 1.143em }
+ul.list-def > li:before { content: ''; display: block;  position: absolute; left: 0; top:calc(50% - 0.7em); width: 2.2em; height: 1.4em; background-repeat: no-repeat; background-position: left top; background-size: contain; }
+ul.list-def.chat li:before { background-image: url(../../resources/images/common/icons/fc-chat-g.png); }
+ul.list-def.hand li:before { background-image: url(../../resources/images/common/icons/fc-hand-point-right-g.png); }
+ul.list-def + .btn { margin-top: 1em; margin-left: 2.2em; background: #ff5a00; font-size: 1.143em; font-weight: bold; border-radius: 0; border: 0; outline: 0; padding: 0.4em 0.8em 0.2em; }
