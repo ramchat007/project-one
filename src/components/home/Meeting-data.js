@@ -2,7 +2,7 @@ const meetingData = [
     {
         key:1,
         heading:"Past",
-        meetings:11,
+        // meetings:11,
         className:"card mb-4 shadow-sm bg-primary",
         meetingCard:[
             {
@@ -34,11 +34,11 @@ const meetingData = [
     {
         key:2,
         heading:"Upcoming",
-        meetings:25,
+        // meetings:25,
         className:"card mb-4 shadow-sm bg-success",
         meetingCard:[
             {
-                id:1,
+                id:4,
                 src:"resources/images/common/user-profile.png",
                 boldText:"SST Tech Solutions",
                 meetingDep:"Marketing Team Meeting",
@@ -46,7 +46,7 @@ const meetingData = [
                 time:"2:30 PM"
             },
             {
-                id:2,
+                id:5,
                 src:"resources/images/common/user-profile.png",
                 boldText:"SST Tech Solutions",
                 meetingDep:"Marketing Team Meeting",
@@ -54,7 +54,7 @@ const meetingData = [
                 time:"4:30 PM"
             },
             {
-                id:3,
+                id:6,
                 src:"resources/images/common/user-profile.png",
                 boldText:"SST Tech Solutions",
                 meetingDep:"Marketing Team Meeting",
@@ -67,11 +67,11 @@ const meetingData = [
     {
         key:3,
         heading:"Cancelled",
-        meetings:31,
+        // meetings:31,
         className:"card mb-4 shadow-sm bg-danger",
         meetingCard:[
             {
-                id:1,
+                id:7,
                 src:"resources/images/common/user-profile.png",
                 boldText:"SST Tech Solutions",
                 meetingDep:"Marketing Team Meeting",
@@ -79,7 +79,7 @@ const meetingData = [
                 time:"2:30 PM"
             },
             {
-                id:2,
+                id:8,
                 src:"resources/images/common/user-profile.png",
                 boldText:"SST Tech Solutions",
                 meetingDep:"Marketing Team Meeting",
@@ -87,12 +87,20 @@ const meetingData = [
                 time:"4:30 PM"
             },
             {
-                id:3,
+                id:9,
                 src:"resources/images/common/user-profile.png",
                 boldText:"SST Tech Solutions",
                 meetingDep:"Marketing Team Meeting",
                 date:"02/02/2020",
                 time:"2:30 PM"
+            },
+            {
+                id:10,
+                src:"resources/images/common/user-profile.png",
+                boldText:"SST Tech Solutions",
+                meetingDep:"Marketing Team Meeting",
+                date:"07/02/2020",
+                time:"5:30 PM"
             }
         ]
 

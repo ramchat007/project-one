@@ -1,0 +1,103 @@
+{
+    "key":1,
+    "heading":"Past",
+    "className":"card mb-4 shadow-sm bg-primary",
+    "meetingCard":[
+        {
+            "id":1,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"02/02/2020",
+            "time":"2:30 PM"
+        },
+        {
+            "id":2,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"01/02/2020",
+            "time":"4:30 PM"
+        },
+        {
+            "id":3,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"02/02/2020",
+            "time":"2:30 PM"
+        }
+    ]
+},
+{
+    "key":2,
+    "heading":"Upcoming",
+    "className":"card mb-4 shadow-sm bg-success",
+    "meetingCard":[
+        {
+            "id":4,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"02/02/2020",
+            "time":"2:30 PM"
+        },
+        {
+            "id":5,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"01/02/2020",
+            "time":"4:30 PM"
+        },
+        {
+            "id":6,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"02/02/2020",
+            "time":"2:30 PM"
+        }
+    ]
+
+},
+{
+    "key":3,
+    "heading":"Cancelled",
+    "className":"card mb-4 shadow-sm bg-danger",
+    "meetingCard":[
+        {
+            "id":7,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"02/02/2020",
+            "time":"2:30 PM"
+        },
+        {
+            "id":8,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"01/02/2020",
+            "time":"4:30 PM"
+        },
+        {
+            "id":9,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"02/02/2020",
+            "time":"2:30 PM"
+        },
+        {
+            "id":10,
+            "src":"resources/images/common/user-profile.png",
+            "boldText":"SST Tech Solutions",
+            "meetingDep":"Marketing Team Meeting",
+            "date":"07/02/2020",
+            "time":"5:30 PM"
+        }
+    ]
+
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import AddNewMeeting from './components/home/AddNewMeeting';
+
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Home from './components/home/Home';
@@ -15,6 +17,7 @@ function App() {
             <Switch>
               <Route path="/" exact component={Home}></Route>
               <Route path="/about" component={About}></Route>
+              <Route path="/new-meeting" component={AddNewMeeting}></Route>
             </Switch>
         </Router>
   );
